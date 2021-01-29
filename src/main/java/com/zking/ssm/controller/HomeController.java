@@ -29,6 +29,10 @@ public class HomeController {
 
         return "wellcome";
     }
+    @RequestMapping("/toHome2")
+    public String toHome2(){
 
+        return "wellcome";
+    }
 
 }
